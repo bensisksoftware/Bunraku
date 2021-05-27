@@ -276,7 +276,7 @@ public class ClickCenter {
 				if (Player.dreaming) {
 					Message.readMirrorDream2();
 				} else {
-					Message.readMirror1();
+					Message.readG15N();
 				}
 				break;
 			case "g15w":

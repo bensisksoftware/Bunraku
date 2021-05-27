@@ -209,8 +209,10 @@ public class Message extends Thread {
 	private static String textH2N1 = "A strong feeling of foreboding discourages you"; 
 	private static String textH2N2 = "from approaching the woman.";
 	
-	private static String textHouseGlass1 = "The glass casts your reflection back at you. Your";
-	private static String textHouseGlass2 = "loosely kept beard fits your faded green robe.";
+	private static String textHouseGlass1 = "The glass casts your reflection back at you.";
+	private static String textHouseGlass2 = "Your loosely kept beard fits your faded green";
+	private static String textHouseGlass3 = "Your loosely kept beard fits your faded orange";
+	private static String textHouseGlass4 = "robe.";
 	
 	private static String textH12E = "The sign reads: \"Fubakuan, tea ceremony room.\"";
 	
@@ -2625,6 +2627,19 @@ public class Message extends Thread {
 		currentMessage =1;
 		textArray1 = textHouseGlass1.toCharArray();
 		textArray2 = textHouseGlass2.toCharArray();	
+		textArray3 = textHouseGlass4.toCharArray();	
+	}
+	
+	public static void readG15N() {
+		Player.readingMessage = true;
+		//reading = true;
+		prepText();
+		Animation.openingMessage = true;
+		numberOfMessages = 1;
+		currentMessage =1;
+		textArray1 = textHouseGlass1.toCharArray();
+		textArray2 = textHouseGlass3.toCharArray();	
+		textArray3 = textHouseGlass4.toCharArray();	
 	}
 	
 	public static void readT45S() {

@@ -143,7 +143,6 @@ public class World {
 		System.out.println("tChant " + tChant);
 		System.out.println("old pos " + Player.oldPosition);
 		
-		// WHY IS THIS NOT WORKING?!
 		if ((Player.oldPosition.equals("g9rs")
 			&& Player.breathed
 			&& Player.chantInputs.equals(gChant)
