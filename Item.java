@@ -90,6 +90,7 @@ public class Item {
 		}
 		
 		if (Player.holdingYu) {
+			Player.checkingYuFromInventory = true;
 			Player.setBusy(true);
 			ImagePanel.scrollY = -250;
 			Player.examiningYu = true;

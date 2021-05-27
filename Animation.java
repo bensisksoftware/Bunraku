@@ -2570,12 +2570,14 @@
 		
 		Player.setDisableWalk(false);
 		
-		if (Player.position.equals("t9n shop")) {
+		if (Player.position.equals("t9n shop") && !Player.checkingYuFromInventory) {
 			Player.setDisableWalk(true);
 			World.shopCaseOpen = false;
 			Audio.startEquip1();
 			loweringShopCase = true;
 		}
+		
+		Player.checkingYuFromInventory = false;
 	}
 	
 	private static void lowerSymbol() {

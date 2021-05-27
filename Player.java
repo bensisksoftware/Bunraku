@@ -89,6 +89,7 @@ public class Player {
 	public static boolean cantLeaveKnot;
 	public static boolean spokeToMonk;
 	public static boolean knowsGotShi;
+	public static boolean checkingYuFromInventory;
 	
 	public static int trancesTranced = 0;
 	

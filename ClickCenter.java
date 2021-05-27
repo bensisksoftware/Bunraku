@@ -174,7 +174,6 @@ public class ClickCenter {
 					Animation.openingScroll = true;
 					Audio.startScroll();
 					Player.hasJi = true;
-					Audio.startScroll();
 				} else if (World.open && Mouse.x > 338 && Mouse.x < 500 && Mouse.y > 44 && Mouse.y < 223) {
 					// close safe
 					World.open = false;
@@ -329,7 +328,6 @@ public class ClickCenter {
 					Animation.openingScroll = true;
 					Audio.startScroll();
 					Player.hasOm = true;
-					Audio.startScroll();
 				} else if (World.open && Mouse.x > 270 && Mouse.x < 438 && Mouse.y > 13 && Mouse.y < 179) {
 					// close safe
 					World.open = false;
@@ -674,7 +672,6 @@ public class ClickCenter {
 					Animation.openingScroll = true;
 					Audio.startScroll();
 					Player.hasRa = true;
-					Audio.startScroll();
 				}
 				
 
@@ -819,7 +816,6 @@ public class ClickCenter {
 					Animation.openingScroll = true;
 					Audio.startScroll();
 					Player.hasNi = true;
-					Audio.startScroll();
 				} else if (World.open && Mouse.x > 338 && Mouse.x < 500 && Mouse.y > 44 && Mouse.y < 223) {
 					// close safe
 					World.open = false;
@@ -1121,7 +1117,6 @@ public class ClickCenter {
 					Animation.openingScroll = true;
 					Audio.startScroll();
 					Player.hasGo = true;
-					Audio.startScroll();
 				}
 				break;
 			case "t5e":
@@ -1221,7 +1216,6 @@ public class ClickCenter {
 							Animation.openingScroll = true;
 							Audio.startScroll();
 							Player.hasYu = true;
-							Audio.startScroll();
 						} else {
 							// click outside scroll
 							World.shopCaseOpen = false;
